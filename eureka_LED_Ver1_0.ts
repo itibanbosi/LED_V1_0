@@ -29,7 +29,7 @@ enum LED_color {
     白,
 }
 enum LED_wait {
-    //% block="0",
+    //% block="TIME",
     zero,
     //% block="0.2",
     dot_two,
