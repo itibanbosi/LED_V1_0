@@ -66,18 +66,6 @@ namespace natumi_blocks {
     pins.analogSetPitchPin(AnalogPin.P8);
     }
  
-/**
- * Repeats the code forever in the background. On each iteration, allows other codes to run.
- * @param body code to execute
- */
-function forever(a: () => void): void {
-    basic.forever(a);
-}
-
-
-
-
-
 
   //% color="#ff7b00" weight=17 blockId=eureka_white block="LEDライト |%mode| 時間|%LED_time|秒 ポート|%pin|" group="1_たん体ＬＥＤ"
   export function eureka_white( mode: onoff , LED_time:LED_wait , port:eureka_IO) {
