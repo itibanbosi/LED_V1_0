@@ -73,31 +73,31 @@ namespace natumi_blocks {
       case eureka_IO.Aﾎﾟｰﾄ:
         if (mode == onoff.ON) {
             pins.digitalWritePin(DigitalPin.P0, 1);
-            basic.pause(LED_time*300);
+            basic.pause(LED_time*200);
         return
         } else {
             pins.digitalWritePin(DigitalPin.P0, 0);
-            basic.pause(LED_time*300);
+            basic.pause(LED_time*200);
         return
         }
       case eureka_IO.Bﾎﾟｰﾄ:
         if (mode == onoff.ON) {
             pins.digitalWritePin(DigitalPin.P1, 1);
-            basic.pause(LED_time*300);
+            basic.pause(LED_time*200);
         return
         } else {
             pins.digitalWritePin(DigitalPin.P1, 0);
-            basic.pause(LED_time*300);
+            basic.pause(LED_time*200);
         return
         }
       case eureka_IO.Cﾎﾟｰﾄ:
         if (mode == onoff.ON) {
             pins.digitalWritePin(DigitalPin.P2, 1);
-            basic.pause(LED_time*300);
+            basic.pause(LED_time*200);
         return
         } else {
             pins.digitalWritePin(DigitalPin.P2, 0);
-            basic.pause(LED_time*300);
+            basic.pause(LED_time*200);
         return
         }
     }
