@@ -53,7 +53,7 @@ enum LED_wait {
 
 
 
-//% color="#ff7b00" block="はじめの一歩　V0.95"
+//% color="#ff7b00" block="はじめの一歩　V0.96"
 namespace natumi_blocks {
 
     //% blockId=eureka_buz_set 
